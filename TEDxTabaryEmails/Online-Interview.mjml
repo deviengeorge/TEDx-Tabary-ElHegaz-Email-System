@@ -1,0 +1,160 @@
+<mjml>
+	<mj-head>
+		<mj-title>TEDx@TabaryElHegaz</mj-title>
+		<mj-attributes>
+			<mj-all font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" />
+			<mj-text
+				font-weight="400"
+				font-size="16px"
+				color="#000000"
+				line-height="24px"
+				font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+			/>
+		</mj-attributes>
+		<mj-style inline="inline">
+			.body-section { -webkit-box-shadow: 1px 4px 11px 0px rgba(0, 0, 0, 0.25);
+			-moz-box-shadow: 1px 4px 11px 0px rgba(0, 0, 0, 0.25); box-shadow: 1px 4px
+			11px 0px rgba(0, 0, 0, 0.25); }
+		</mj-style>
+	</mj-head>
+	<mj-body background-color="#EF4444" width="600px">
+		<mj-section
+			full-width="full-width"
+			background-color="#111827"
+			padding-bottom="0"
+		>
+			<mj-column width="100%">
+				<mj-image
+					src="https://siasky.net/jAB0axJs_c6dfoSpUL1B8mbvw_m82FuJ2BPJ97ev0Cv6-Q"
+					alt="TEDx Tabary ElHegaz HS Logo"
+					padding="0"
+					align="center"
+					width="300px"
+				/>
+				<mj-image
+					border-radius="15px 15px 0 0"
+					src="https://siasky.net/FAAnDiWHDNsuvpplDEvcrYgcuJDEw78Su4Kzprbrv0xYDg"
+					width="600px"
+					alt=""
+					padding="0"
+				/>
+			</mj-column>
+		</mj-section>
+		<mj-wrapper padding-top="0" padding-bottom="0" css-class="body-section">
+			<mj-section
+				background-color="#ffffff"
+				padding-left="15px"
+				padding-right="15px"
+				padding-bottom="0px"
+			>
+				<mj-column width="100%">
+					<mj-text color="#212b35" font-weight="bold" font-size="30px">
+						Dear <%= Name %>
+					</mj-text>
+					<mj-text color="#637381" font-size="16px">
+						<b>Ramadan Mubarak</b><br />
+						We are blessed to tell you that you
+						<b>Have Passed The First Step</b>, Your Application is outstanding,
+						can't wait to see you!
+						<br />
+						<b>and We wish you a Happy Eid</b>
+						<br />
+						So be ready to the next step in the online interview.
+						<br />
+						The Interview will be <b>Online on Zoom Call</b>
+						<br />
+						We will contact you via WhatsApp to schedule the interview time
+						<br />
+						For more Information Call:
+						<br />
+						<b>0115 229 3123</b>
+						<br />
+					</mj-text>
+				</mj-column>
+			</mj-section>
+
+			// Another Section
+			<!-- <mj-section
+				background-color="#fff"
+				padding="0"
+			>
+				<mj-column width="100%">
+					<mj-button
+						background-color="#EF4444"
+						align="center"
+						color="#ffffff"
+						border-radius="5px"
+						font-size="17px"
+						font-weight="bold"
+						href="
+							{{ Interview_Link }}?id={{ full_name }}
+						"
+						width="350px"
+					>
+						Determine your Interview Metting
+					</mj-button>
+				</mj-column>
+			</mj-section> -->
+
+			// Another Section
+			<mj-section
+				background-color="#fff"
+				padding="0 15px 15px 15px"
+				border-radius="0 0 15px 15px"
+			>
+				<mj-column width="100%">
+					<mj-text
+						color="#212b35"
+						font-weight="bold"
+						font-size="20px"
+						padding-bottom="0"
+					>
+						Thank You For Your Efforts
+					</mj-text>
+					<mj-text color="#637381" font-size="16px">
+						Regards,<br />
+						<b>Chairman: </b> Ahmed Mostafa<br />
+						<b>Head of HR: </b> Hager Adel
+					</mj-text>
+				</mj-column>
+			</mj-section>
+		</mj-wrapper>
+		<mj-wrapper>
+			<mj-section>
+				<mj-column width="100%">
+					<mj-social
+						border-radius="10px"
+						icon-size="30px"
+						font-size="5px"
+						mode="horizontal"
+						align="center"
+					>
+						<mj-social-element
+							name="facebook"
+							href="https://www.facebook.com/TEDxBSTEM"
+							background-color="#111827"
+						/>
+						<mj-social-element
+							name="linkedin"
+							href="https://www.linkedin.com/company/tedxtabaryelhegaz/"
+							background-color="#111827"
+						/>
+						<mj-social-element
+							name="instagram"
+							href="https://www.instagram.com/tedxtabaryelhegaz"
+							background-color="#111827"
+						/>
+					</mj-social>
+					<mj-text
+						color="#D1D5DB"
+						font-size="11px"
+						align="center"
+						line-height="16px"
+					>
+						TEDxYouth@Tabary ElHegaz HS Youth, &copy; 2021 All Rights Reserved.
+					</mj-text>
+				</mj-column>
+			</mj-section>
+		</mj-wrapper>
+	</mj-body>
+</mjml>
