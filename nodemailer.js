@@ -2,9 +2,10 @@ const nodemailer = require('nodemailer');
 
 const makeTransporter = ({ user, password }) => {
 	let transporter = nodemailer.createTransport({
-		host: 'smtp.zoho.com',
-		port: 465,
-		secure: true, // use SSL
+		// host: 'smtp.zoho.com',
+		service: 'Gmail',
+		// port: 465,
+		// secure: true, // use SSL
 		auth: {
 			user: user,
 			pass: password,
@@ -27,7 +28,7 @@ const sendEmail = async (
 		});
 		console.log(`Email sent To ${toEmail}`);
 	} catch (error) {
-		console.log(err);
+		console.log(error);
 		console.error(`Retry sending email to Email: ${toEmail}`);
 		await sendEmail(
 			{ title, toEmail, fromEmail, subject, text, html },

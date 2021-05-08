@@ -54,15 +54,24 @@
 					<mj-text color="#637381" font-size="16px">
 						<b>Ramadan Mubarak</b><br />
 						We are blessed to tell you that you <b>Passed The First Step</b>,
-						Your Application was outstanding, can't wait to see you soon! and we
-						wish you a very blessed month.
+						Your Application in <b><%= Committee_Name %> Committee</b> was
+						outstanding, can't wait to see you soon! and we wish you a very
+						blessed month.
 						<br />
 						So be ready to the next step the offline interview. Wish you happy
 						Eid Waiting to see you in the:
 						<br />
-						The Interview Place: <%= Place %>
+						The Interview Place:
+						<b>
+							<a href="https://g.page/StabraqCS?share">
+								Stabraq Community Space
+							</a>
+						</b>
 						<br />
-						The Interview Time: <%= Time %>
+						1 Mostafa El-Nahaas, Al Hadiqah El-Dawleya
+						<br />
+						<br />
+						The Interview Time: <b><%= Meeting_Time %></b>
 						<br />
 						For more Information Call:
 						<br />
@@ -72,30 +81,6 @@
 				</mj-column>
 			</mj-section>
 
-			// Another Section
-			<!-- <mj-section
-				background-color="#fff"
-				padding="0"
-			>
-				<mj-column width="100%">
-					<mj-button
-						background-color="#EF4444"
-						align="center"
-						color="#ffffff"
-						border-radius="5px"
-						font-size="17px"
-						font-weight="bold"
-						href="
-							{{ Interview_Link }}?id={{ full_name }}
-						"
-						width="350px"
-					>
-						Determine your Interview Metting
-					</mj-button>
-				</mj-column>
-			</mj-section> -->
-
-			// Another Section
 			<mj-section
 				background-color="#fff"
 				padding="0 15px 15px 15px"
@@ -130,22 +115,17 @@
 					>
 						<mj-social-element
 							name="facebook"
-							href="https://www.facebook.com/TEDxBSTEM"
+							href="https://www.facebook.com/TEDxTabaryElHegaz"
 							background-color="#111827"
 						/>
 						<mj-social-element
 							name="linkedin"
-							href="https://www.youtube.com/channel/UCA-y2ItuAJGsWnlo1egpLtw"
-							background-color="#111827"
-						/>
-						<mj-social-element
-							name="web"
-							href="https://www.youtube.com/channel/UCA-y2ItuAJGsWnlo1egpLtw"
+							href="https://www.linkedin.com/company/tedxtabaryelhegaz/"
 							background-color="#111827"
 						/>
 						<mj-social-element
 							name="instagram"
-							href="https://www.youtube.com/channel/UCA-y2ItuAJGsWnlo1egpLtw"
+							href="https://www.instagram.com/tedxtabaryelhegaz"
 							background-color="#111827"
 						/>
 					</mj-social>
@@ -155,7 +135,7 @@
 						align="center"
 						line-height="16px"
 					>
-						TEDxYouth@Tabary ElHegaz HS Youth, &copy; 2021 All Rights Reserved.
+						TEDxYouth@TabaryElHegazHS, &copy; 2021 All Rights Reserved.
 					</mj-text>
 				</mj-column>
 			</mj-section>
