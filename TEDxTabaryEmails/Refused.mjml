@@ -1,0 +1,133 @@
+<mjml>
+	<mj-head>
+		<mj-title>TEDx@TabaryElHegaz</mj-title>
+		<mj-attributes>
+			<mj-all font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" />
+			<mj-text
+				font-weight="400"
+				font-size="16px"
+				color="#000000"
+				line-height="24px"
+				font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+			/>
+		</mj-attributes>
+		<mj-style inline="inline">
+			.body-section { -webkit-box-shadow: 1px 4px 11px 0px rgba(0, 0, 0, 0.25);
+			-moz-box-shadow: 1px 4px 11px 0px rgba(0, 0, 0, 0.25); box-shadow: 1px 4px
+			11px 0px rgba(0, 0, 0, 0.25); }
+		</mj-style>
+	</mj-head>
+	<mj-body background-color="#EF4444" width="600px">
+		<mj-section
+			full-width="full-width"
+			background-color="#111827"
+			padding-bottom="0"
+		>
+			<mj-column width="100%">
+				<mj-image
+					src="https://siasky.net/jAB0axJs_c6dfoSpUL1B8mbvw_m82FuJ2BPJ97ev0Cv6-Q"
+					alt="TEDx Tabary ElHegaz HS Logo"
+					padding="20px 0"
+					align="center"
+					width="300px"
+				/>
+				<mj-image
+					border-radius="15px 15px 0 0"
+					src="https://siasky.net/FAAnDiWHDNsuvpplDEvcrYgcuJDEw78Su4Kzprbrv0xYDg"
+					width="600px"
+					alt=""
+					padding="0"
+				/>
+			</mj-column>
+		</mj-section>
+		<mj-wrapper padding-top="0" padding-bottom="0" css-class="body-section">
+			<mj-section
+				background-color="#ffffff"
+				padding-left="15px"
+				padding-right="15px"
+				padding-bottom="0px"
+			>
+				<mj-column width="100%">
+					<mj-text color="#212b35" font-weight="bold" font-size="30px">
+						Dear <%= Name %>
+					</mj-text>
+					<mj-text color="#637381" font-size="16px">
+						We extremely appreciate your extraordinary efforts shown in the
+						application process and interview. However, We are very sorry to
+						inform you that we have chosen another candidate for your preferred
+						position. Please do not let this discourage you from applying next
+						year or coming to see the event this year as we highly believe in
+						your potential and value.
+						<br />
+						<b>
+							Please do not hesitate to contact us if you need feedback that is
+							more detailed.
+						</b>
+						<br />
+					</mj-text>
+				</mj-column>
+			</mj-section>
+
+			<mj-section
+				background-color="#fff"
+				padding="0 15px 15px 15px"
+				border-radius="0 0 15px 15px"
+			>
+				<mj-column width="100%">
+					<mj-text
+						color="#212b35"
+						font-weight="bold"
+						font-size="20px"
+						padding-bottom="0"
+					>
+						Thank you for your interest in TEDxYouth@TabaryElHegaz
+					</mj-text>
+					<mj-text color="#637381" font-size="16px">
+						Regards,
+						<br />
+						<b>Chairman: </b>Ahmed Mostafa
+						<br />
+						<b>Head of HR: </b>Hager Adel
+					</mj-text>
+				</mj-column>
+			</mj-section>
+		</mj-wrapper>
+		<mj-wrapper>
+			<mj-section>
+				<mj-column width="100%">
+					<mj-social
+						border-radius="10px"
+						icon-size="30px"
+						font-size="5px"
+						mode="horizontal"
+						align="center"
+					>
+						<mj-social-element
+							name="facebook"
+							href="https://www.facebook.com/TEDxTabaryElHegaz"
+							background-color="#111827"
+						/>
+						<mj-social-element
+							name="linkedin"
+							href="https://www.linkedin.com/company/tedxtabaryelhegaz/"
+							background-color="#111827"
+						/>
+						<mj-social-element
+							name="instagram"
+							href="https://www.instagram.com/tedxtabaryelhegaz"
+							background-color="#111827"
+						/>
+					</mj-social>
+					<mj-text
+						color="#D1D5DB"
+						font-size="11px"
+						align="center"
+						line-height="16px"
+					>
+						TEDxYouth@TabaryElHegazHS, &copy; 2021 All Rights Reserved.
+					</mj-text>
+				</mj-column>
+			</mj-section>
+		</mj-wrapper>
+	</mj-body>
+</mjml>

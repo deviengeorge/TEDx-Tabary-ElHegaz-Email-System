@@ -14,7 +14,6 @@ const sendMultipleEmails = async ({ csvPath, templatePath }, transporter) => {
 			...personData,
 		});
 
-		await sleep(5000);
 		await sendEmail(
 			{
 				title: 'TEDx Tabary ElHegaz',
@@ -26,6 +25,8 @@ const sendMultipleEmails = async ({ csvPath, templatePath }, transporter) => {
 			},
 			transporter
 		);
+
+		await sleep(5000);
 	}
 };
 
